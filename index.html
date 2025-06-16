@@ -46,12 +46,19 @@ date {
   font-family: monospace;
 }
 .card {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: 0.3s;
   width: 65%;
-  border-radius: 10px;
   margin: auto;
   background-color: #34495e;
+  border-radius: 10px;
+
+  /* ✅ Garis tepi (stroke putih) */
+  border: 3px solid white;
+
+  /* ✅ Bayangan lebih tebal */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+
+  /* Smooth transition saat hover atau perubahan */
+  transition: 0.3s;
 }
 .card:hover {
   box-shadow: 0 8px 16px rgba(0,0,0,0.3);
